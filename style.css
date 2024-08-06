@@ -81,6 +81,16 @@ header{
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    animation:  moveBannerVertical 0.8s linear;
+}
+
+@keyframes moveBannerVertical {
+    0%{
+        bottom:  -80%;
+    }
+    20%{
+        bottom: 5%;
+    }
 }
 
 .contenido-banner a{
@@ -143,6 +153,7 @@ header{
     margin: 20px 10px;
     border-radius: 70px;
 }
+
 .mision,
 .vision, h2{
     font-size: 40px;
