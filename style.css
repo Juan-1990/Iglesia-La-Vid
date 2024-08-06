@@ -86,7 +86,7 @@ header{
 
 @keyframes moveBannerVertical {
     0%{
-        bottom:  -80%;
+        bottom:  -5%;
     }
     20%{
         bottom: 5%;
