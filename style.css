@@ -31,7 +31,7 @@ header{
 .menu a{
     color: #9c9c9c;
     padding: 0 10px;
-    /* transition: 0.4s; */
+    text-decoration: none;
 }
 
 .menu a:hover{
@@ -121,6 +121,7 @@ header{
     border: 1px solid #fec529;
     padding: 20px 40px;
     font-size: 20px;
+    text-decoration: none;
     text-transform: uppercase;
 }
 .btn a:hover{
@@ -222,6 +223,11 @@ header{
 
 .accordion-item:hover .accordion-content {
     opacity: 1;
+}
+
+.accordion-item .accordion-item{
+    display: flex;
+    text-align: center;
 }
 
 /* Efecto de superposición */
